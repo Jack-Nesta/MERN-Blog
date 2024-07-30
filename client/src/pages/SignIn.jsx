@@ -2,6 +2,5 @@ import React from 'react'
 
 export default function SignIn() {
   return (
-    <h1>SignIn</h1>
-  )
+    <h1  className='text-3xl text-red-500'>SignIn</h1>)
 }
