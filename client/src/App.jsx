@@ -12,6 +12,7 @@ import Header from "./components/Header";
 export default function App() {
   return (
     <BrowserRouter>
+    {/*Adding Header inside BrowserRouter but outside Routes to make it available to all pages*/}
     <Header />
       <Routes>
         <Route path="/" element={<Home />} />
