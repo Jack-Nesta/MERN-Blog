@@ -4,14 +4,13 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-
 const firebaseConfig = {
   apiKey:import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: "mern-blog-9b9d9.firebaseapp.com",
-  projectId: "mern-blog-9b9d9",
-  storageBucket: "mern-blog-9b9d9.appspot.com",
-  messagingSenderId: "209649774278",
-  appId: "1:209649774278:web:3c7864880ae9b13383f1c7"
+  authDomain: "mern-blog-11c1b.firebaseapp.com",
+  projectId: "mern-blog-11c1b",
+  storageBucket: "mern-blog-11c1b.appspot.com",
+  messagingSenderId: "490521079311",
+  appId: "1:490521079311:web:aa3fbb3e6a1edab69c7d7a",
 };
 
 // Initialize Firebase
